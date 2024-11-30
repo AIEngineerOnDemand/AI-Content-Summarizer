@@ -9,7 +9,7 @@ env_path = os.path.join(os.path.dirname(__file__), '..', '..', '.env')
 load_dotenv(dotenv_path=env_path)
 
 
-def downlad_from_medium(url):
+def download_from_medium(url):
   
     # Create a session
     s = requests.Session()
